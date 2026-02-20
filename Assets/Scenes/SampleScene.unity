@@ -315,7 +315,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.23, y: 2.32, z: 12.7}
+  m_LocalPosition: {x: 0.21, y: 2.32, z: 23.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -457,7 +457,7 @@ Transform:
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
   m_LocalRotation: {x: 0.06899697, y: 0.8941481, z: -0.416947, w: 0.14796577}
-  m_LocalPosition: {x: 0, y: 3, z: -8.43}
+  m_LocalPosition: {x: 15.85, y: 3, z: -8.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -529,7 +529,7 @@ Transform:
   m_GameObject: {fileID: 832575517}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -7.26}
+  m_LocalPosition: {x: 15.33, y: 0, z: -7.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -605,7 +605,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 5281737f336fcd143b9882ee15ff9acb, type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.3996621
+      value: 0.28216627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 5281737f336fcd143b9882ee15ff9acb, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.15168203
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 5281737f336fcd143b9882ee15ff9acb, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.028665412
       objectReference: {fileID: 0}
     - target: {fileID: 8819156563268242370, guid: 5281737f336fcd143b9882ee15ff9acb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
